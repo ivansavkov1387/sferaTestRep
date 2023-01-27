@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="20G918" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CharacterListItem" representedClassName="CharacterListItem" syncable="YES">
+        <attribute name="created" attributeType="String"/>
+        <attribute name="episode" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String]"/>
+        <attribute name="gender" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="image" attributeType="String"/>
+        <attribute name="location" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String:String]"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="origin" attributeType="Transformable" valueTransformerName="NSSecureUnarchiveFromData" customClassName="[String:String]"/>
+        <attribute name="species" attributeType="String"/>
+        <attribute name="status" attributeType="String"/>
+        <attribute name="type" attributeType="String"/>
+        <attribute name="url" attributeType="String"/>
+    </entity>
+    <entity name="InfoItem" representedClassName="InfoItem" syncable="YES">
+        <attribute name="characterCount" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="characterPages" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodeCount" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="episodePages" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="locationCount" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="locationPages" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="CharacterListItem" positionX="-63" positionY="-18" width="128" height="223"/>
+        <element name="InfoItem" positionX="-63" positionY="81" width="128" height="119"/>
+    </elements>
+</model>
